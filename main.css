@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 80%;
+    background-color: burlywood;
+}
+ul li{
+    list-style: none;
+}
+.navigation a{
+    color: rgb(10, 27, 63);
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    border-bottom: 2px solid rgb(189, 38, 108);
+    transition-delay: 0.5s;
+}
+h1{
+    color: rgb(42, 61, 102);
+    text-shadow: 1px 2px rgba(21, 147, 197, 0.349);
+}
+.navigation, .list-article{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.btn-nav{
+    flex-basis: 30%;
+    margin: 0;
+}
+.lists-of-activities{
+    flex-basis: 40%;
+}
+li{
+    text-align: left;
+}
+.morning-activities{
+    border: 1p solid rgb(86, 7, 175);
+}

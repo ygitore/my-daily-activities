@@ -1,5 +1,5 @@
 import { AddTodo } from "./AddTodo.js";
-import { todoListInput } from "../todoButton/todoButtonText.js";
+import { TodoListInput } from "../todoButton/TodoButtonText.js";
 
 const contentTarget = document.querySelector(".todoListContainer")
 const eventHub = document.querySelector(".container")

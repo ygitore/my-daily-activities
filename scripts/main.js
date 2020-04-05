@@ -1,3 +1,3 @@
-import { todoListInput } from "./todoButton/todoButtonText.js";
+import { TodoListInput } from "./todoButton/TodoButtonText.js";
 import "./todoLists/AddTodoList.js";
-todoListInput()
+TodoListInput()
